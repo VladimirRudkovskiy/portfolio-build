@@ -17,7 +17,7 @@ export default function ExperienceCard({}: Props) {
 			 whileInView={{ opacity: 1, y: 0 }}
 			 transition={{ duration: 1.2 }}
 			 viewport={{ once: true }}
-			className='w-32 h-32 rounded-full xl:w-[200px] object-cover object-center'
+			className='w-32 h-32 rounded-full object-cover object-center'
 			src="https://static-cdn.jtvnw.net/jtv_user_pictures/1ccd6108-4c1f-40af-89f6-60762f3c4567-profile_image-300x300.png" />
 
 			<div className='px-0 md:px-10'>
