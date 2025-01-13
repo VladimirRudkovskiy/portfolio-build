@@ -28,12 +28,12 @@ export default function Hero({}: Props) {
 			src="https://avatars.githubusercontent.com/u/44618844?s=400&u=5646cd242616e93f4adc26f522aaad0fe67b92e4&v=4" alt="" />
 
 			<div>
-				<h2 className='text-sm uppercase text-[#F7AB0A] pb-2 tracking-[15px]'>
+				<h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
 					Software Engineer
 				</h2>
 			</div>
 			<h1 className='text-5xl lg:text-6xl font-semibold px-10'>
-				<span className='mr-3'>{text}</span>
+				<span className='mr-3 ' >{text}</span>
 				<Cursor cursorColor='#F7AB0A'/>
 			</h1>
 

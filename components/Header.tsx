@@ -30,18 +30,22 @@ export default function Header({}: Props) {
 				className='flex flex-row items-center'>
 				{/* Social Icons */}
 				<SocialIcon
-					
+					className='custom-class-icon'
 					url="https://twitter.com/jaketrent" 
 					fgColor='gray'
 					bgColor='transparent'
 					/>
 
-				<SocialIcon url="https://telegram.com/jaketrent" 
+				<SocialIcon 
+					className='custom-class-icon'
+					url="https://telegram.com/jaketrent" 
 					fgColor='gray'
 					bgColor='transparent'
 					/>
 
-				<SocialIcon url="https://github.com/jaketrent" 
+				<SocialIcon 
+					className='custom-class-icon'
+					url="https://github.com/jaketrent" 
 					fgColor='gray'
 					bgColor='transparent'
 					/>
@@ -65,13 +69,13 @@ export default function Header({}: Props) {
 
 			className='flex flex-row items-center text-gray-300 cursor-pointer'>
 				<SocialIcon
-				className='cursor-pointer'
+				className='cursor-pointer custom-class-icon'
 				network='email'
 				fgColor='gray'
 				bgColor='transparent'
 				/>
 
-				<p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
+				<p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-white'>Get In Touch</p>
 			</motion.div>
 		</header>
 	)
