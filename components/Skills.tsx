@@ -2,7 +2,23 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import Skill from './Skill'
+import Skill from './SanitySkill'
+import SanitySkill from './SanitySkill'
+import NextSkill from './NextSkill'
+import JavaSkill from './JavaSkill'
+import MetaMaskSkill from './MetaMaskSkill'
+import ReactNativeSkill from './ReactNativeSkill'
+import MoralisSkill from './MoralisSkill'
+import TailWindSkill from './TailWindSkill'
+import VisualStudioSkill from './VisualStudioSkill'
+import FirebaseSkill from './FirebaseSkill'
+import MongodbSkill from './MongodbSkill'
+import HtmlSkill from './HtmlSkill'
+import CssSkill from './CssSkill'
+import PostgreSkill from './PostgreSkill'
+import NodeSkill from './NodeSkill'
+import MySqlSkill from './MySqlSkill'
+import TypeScriptSkill from './TypeScriptSkill'
 
 type Props = {}
 
@@ -22,20 +38,22 @@ function Skills({}: Props) {
 			</h3>
 
 			<div className='grid grid-cols-4 gap-5'>
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
-				<Skill />
+				<SanitySkill />
+				<NextSkill />
+				<JavaSkill />
+				<MetaMaskSkill />
+				<ReactNativeSkill />
+				<MoralisSkill />
+				<TailWindSkill />
+				<VisualStudioSkill />
+				<FirebaseSkill />
+				<MongodbSkill />
+				<HtmlSkill />
+				<CssSkill />
+				<PostgreSkill />
+				<NodeSkill />
+				<MySqlSkill />
+				<TypeScriptSkill />
 			</div>
 		</motion.div>
 	)

@@ -32,7 +32,7 @@ export default function About({}: Props) {
 		viewport={{ once: true }}
 
 
-		src="https://lh3.googleusercontent.com/a/ACg8ocI9mXPgfAbMqkDl87ElqmvG8_gI2kHYP14bAJYfLDoXDtqIizNBMBjELYfy3-75itllAcshJPH2vjbHlI1FxFB-lAmFYf7P=s288-c-no"
+		src="https://pbs.twimg.com/media/GhfJrlnWwAAlBxt?format=jpg&name=large"
 		
 		className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
 		/>

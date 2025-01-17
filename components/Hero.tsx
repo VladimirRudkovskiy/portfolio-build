@@ -18,6 +18,7 @@ export default function Hero({}: Props) {
 		],
 		loop: true,
 		delaySpeed: 2000,
+		
 
 	})
 	return (

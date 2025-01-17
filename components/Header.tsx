@@ -31,33 +31,30 @@ export default function Header({ socials = [] }: Props) {
 				}}
 				className='flex flex-row items-center'>
 				{/* Social Icons */}
-				{socials.map((social) => (
-					<SocialIcon
-					key={social._id}
+				<SocialIcon 
 					className='custom-class-icon'
-					url={social.url} 
+					url="https://x.com/therealnorth_1" 
 					fgColor='gray'
 					bgColor='transparent'
 				/>
-				))}
 				
 
 				<SocialIcon 
 					className='custom-class-icon'
-					url="https://telegram.com/jaketrent" 
+					url="https://instagram.com/therealnorth_"
 					fgColor='gray'
 					bgColor='transparent'
 				/>
 
 				<SocialIcon 
 					className='custom-class-icon'
-					url="https://github.com/jaketrent" 
+					url="https://github.com/VladimirRudkovskiy" 
 					fgColor='gray'
 					bgColor='transparent'
 				/>
 			</motion.div>
 
-			{/* <Link href='#contact'> */}
+			<div onClick={() => window.location.href = '#contact'}>
 				<motion.div 
 					initial={{
 						x: 500,
@@ -82,7 +79,7 @@ export default function Header({ socials = [] }: Props) {
 
 					<p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-white'>Get In Touch</p>
 				</motion.div>
-			{/* </Link> */}
+			</div>
 		</header>
 	)
 }
