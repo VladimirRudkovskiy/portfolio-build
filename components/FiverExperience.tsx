@@ -6,7 +6,7 @@ import React from 'react'
 
 type Props = {}
 
-export default function ExperienceCard({}: Props) {
+export default function FiverExperience({}: Props) {
 	return (
 		<article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden'>
 			<motion.img
@@ -18,11 +18,11 @@ export default function ExperienceCard({}: Props) {
 			 transition={{ duration: 1.2 }}
 			 viewport={{ once: true }}
 			className='w-32 h-32 rounded-full object-cover object-center'
-			src="https://static-cdn.jtvnw.net/jtv_user_pictures/1ccd6108-4c1f-40af-89f6-60762f3c4567-profile_image-300x300.png" />
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7j72atakY6MHFWxzbnz23bQn9rwrzRfNNg&s" />
 
 			<div className='px-0 md:px-10'>
 				<h4 className='text-4xl font-light'>Freelancer</h4>
-				<p className='font-bold text-2xl mt-1'>Therealnorth</p>
+				<p className='font-bold text-2xl mt-1'>Fiverr</p>
 				<div className='flex space-x-3 my-2'>
 					<img 
 					className='h-10 w-10 rounded-full'
@@ -40,19 +40,19 @@ export default function ExperienceCard({}: Props) {
 					className='h-10 w-12 rounded-full'
 					src="https://cms-assets.tutsplus.com/uploads/users/1125/posts/29791/preview_image/RN.jpg" alt="" />
 
-				<img 
+					<img 
 					className='h-10 w-10 rounded-full'
 					src="https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp" alt="" />
 
 				</div>
-				<p className='uppercase pu-5 text-gray-300'>Sep 13, 2019 - Present</p>
+				<p className='uppercase pu-5 text-gray-300'>Nov 11, 2021 - Jan 20, 2024</p>
 
 				<ul className='list-disc space-y-4 ml-5 text-lg'>
-					<li>Innovative Solutions.</li>
-					<li>Tech Expertise.</li>
-					<li>Client-Centric Approach.</li>
-					<li>Collaborative Development.</li>
-					<li>Continuous Improvement.</li>
+					<li>Client Acquisition & Project Management.</li>
+					<li>Custom Software Development & Solutions.</li>
+					<li>Communication & Collaboration.</li>
+					<li>Time Management & Deadlines.</li>
+					<li>Marketing & Self-Promotion.</li>
 				</ul>
 			</div>
 		</article>

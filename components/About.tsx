@@ -39,7 +39,7 @@ export default function About({}: Props) {
 
 		<div className='space-y-10 px-0 md:px-10'>
 			<h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background</h4>
-			<p className='text-base'>Hi, I'm Vladimir 🌹, a passionate and experienced web developer with over 7 years of hands-on experience in building dynamic, user-friendly websites and applications. I specialize in both front-end and back-end development, ensuring seamless functionality and exceptional user experiences.
+			<p className='text-base'>Hi, I'm Vladimir 🌹, a passionate and experienced web developer with over 6 years of hands-on experience in building dynamic, user-friendly websites and applications. I specialize in both front-end and back-end development, ensuring seamless functionality and exceptional user experiences.
 
 			Throughout my career, I’ve worked on a variety of projects, from small businesses to large-scale applications, always striving to deliver high-quality results. I’m proficient in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, and Next.js. I’m also comfortable with database management, API integration, and optimizing websites for performance and scalability.
 
