@@ -4,10 +4,15 @@ import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import { Social } from '@/typings'
+import { social } from '@/sanity/schemaTypes/social'
 
-type Props = {}
+type Props = {
+	socials: Social[];
+}
+console.log(social);
 
-export default function Header({}: Props) {
+export default function Header({ socials = [] }: Props) {
 	return (
 		<header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
 			<motion.div
@@ -26,12 +31,16 @@ export default function Header({}: Props) {
 				}}
 				className='flex flex-row items-center'>
 				{/* Social Icons */}
-				<SocialIcon
+				{socials.map((social) => (
+					<SocialIcon
+					key={social._id}
 					className='custom-class-icon'
-					url="https://twitter.com/jaketrent" 
+					url={social.url} 
 					fgColor='gray'
 					bgColor='transparent'
 				/>
+				))}
+				
 
 				<SocialIcon 
 					className='custom-class-icon'
@@ -48,7 +57,7 @@ export default function Header({}: Props) {
 				/>
 			</motion.div>
 
-			<Link href='#contact'>
+			{/* <Link href='#contact'> */}
 				<motion.div 
 					initial={{
 						x: 500,
@@ -73,7 +82,7 @@ export default function Header({}: Props) {
 
 					<p className='uppercase hidden md:inline-flex text-sm text-gray-400 hover:text-white'>Get In Touch</p>
 				</motion.div>
-			</Link>
+			{/* </Link> */}
 		</header>
 	)
 }
