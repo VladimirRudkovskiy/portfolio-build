@@ -41,7 +41,7 @@ export default function AwardsProject() {
 							</div>
 
 							<p className='text-lg text-center md:text-left'>
-							Welcome to RADIANT, your ultimate destination for all things RPG! We provide in-depth coverage, guides, and reviews for the latest and greatest in role-playing games. Whether you're a seasoned adventurer or a newcomer to the genre, our site offers detailed insights into gameplay mechanics, character builds, story analysis, and much more. Explore our extensive library of articles, walkthroughs, and community discussions to level up your RPG experience. From classic titles to cutting-edge releases, RADIANT is your go-to source for everything RPG. Join our growing community and embark on your next epic journey!
+							Welcome to RADIANT, your ultimate destination for all things RPG! We provide in-depth coverage, guides, and reviews for the latest and greatest in role-playing games. Whether you&rsquo;re a seasoned adventurer or a newcomer to the genre, our site offers detailed insights into gameplay mechanics, character builds, story analysis, and much more. Explore our extensive library of articles, walkthroughs, and community discussions to level up your RPG experience. From classic titles to cutting-edge releases, RADIANT is your go-to source for everything RPG. Join our growing community and embark on your next epic journey!
 							</p>
 							<div onClick={() => window.location.href = 'https://gaming-website-peach.vercel.app/'}>
 											<motion.div 

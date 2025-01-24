@@ -6,9 +6,8 @@ import ExperienceCard from './ExperienceCard'
 import FiverExperience from './FiverExperience'
 import FreshExperience from './FreshExperience'
 
-type Props = {}
 
-function WorkExperience({}: Props) {
+function WorkExperience() {
 	return (
 		<motion.div 
 		initial={{ opacity: 0 }}

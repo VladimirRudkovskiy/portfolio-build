@@ -5,9 +5,8 @@ import React from 'react'
 import restate from './restate.png'
 import Image from 'next/image'
 
-type Props = {}
 
-export default function RestateProject({}: Props) {
+export default function RestateProject() {
 	return (
 		<div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
 						<motion.div 
@@ -48,7 +47,7 @@ export default function RestateProject({}: Props) {
 							</div>
 
 							<p className='text-lg text-center md:text-left'>
-							Welcome to Restate, your trusted partner in finding the perfect property. Whether you're buying, selling, or renting, we offer a wide range of residential and commercial real estate options to suit your needs. Our expert team is committed to providing personalized services, guiding you through every step of the process with professionalism and integrity. With detailed listings, market insights, and a user-friendly platform, finding your dream home or investment property has never been easier. At Restate, we prioritize your goals and work to make your real estate journey smooth and successful. Start exploring today and let us help you turn your property dreams into reality!
+							Welcome to Restate, your trusted partner in finding the perfect property. Whether you&rsquo;re buying, selling, or renting, we offer a wide range of residential and commercial real estate options to suit your needs. Our expert team is committed to providing personalized services, guiding you through every step of the process with professionalism and integrity. With detailed listings, market insights, and a user-friendly platform, finding your dream home or investment property has never been easier. At Restate, we prioritize your goals and work to make your real estate journey smooth and successful. Start exploring today and let us help you turn your property dreams into reality!
 							</p>
 
 							<div onClick={() => window.location.href = 'https://github.com/VladimirRudkovskiy/Real-Estate-App'}>

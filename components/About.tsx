@@ -39,13 +39,13 @@ export default function About() {
 
 		<div className='space-y-10 px-0 md:px-10'>
 			<h4 className='text-4xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]'>little</span> background</h4>
-			<p className='text-base'>Hi, I'm Vladimir 🌹, a passionate and experienced web developer with over 6 years of hands-on experience in building dynamic, user-friendly websites and applications. I specialize in both front-end and back-end development, ensuring seamless functionality and exceptional user experiences.
+			<p className='text-base'>Hi, I&rsquo;m Vladimir 🌹, a passionate and experienced web developer with over 6 years of hands-on experience in building dynamic, user-friendly websites and applications. I specialize in both front-end and back-end development, ensuring seamless functionality and exceptional user experiences.
 
-			Throughout my career, I’ve worked on a variety of projects, from small businesses to large-scale applications, always striving to deliver high-quality results. I’m proficient in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, and Next.js. I’m also comfortable with database management, API integration, and optimizing websites for performance and scalability.
+			Throughout my career, I&rsquo;ve worked on a variety of projects, from small businesses to large-scale applications, always striving to deliver high-quality results. I&rsquo;m proficient in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, and Next.js. I&rsquo;m also comfortable with database management, API integration, and optimizing websites for performance and scalability.
 
 			What drives me is creating innovative, efficient solutions that meet both the user and business needs. I thrive in collaborative environments and am always eager to learn new tools and techniques to stay ahead in the fast-evolving world of web development.
 
-			Feel free to explore my work, and let’s connect if you think we could collaborate on something exciting!</p>
+			Feel free to explore my work, and let&rsquo;s connect if you think we could collaborate on something exciting!</p>
 		</div>
 
 		</motion.div>
