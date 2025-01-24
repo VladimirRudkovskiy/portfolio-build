@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { article } from 'framer-motion/client'
 import React from 'react'
 
 

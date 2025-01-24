@@ -48,7 +48,7 @@ export default function EcommerceProject() {
 							</div>
 
 							<p className='text-lg text-center md:text-left'>
-							Welcome to Shopper, your one-stop online shop for all your shopping needs! We offer a vast selection of high-quality products across various categories, including electronics, fashion, home goods, beauty, and more. With a user-friendly interface, secure payment options, and fast shipping, shopping with us is both convenient and hassle-free. Our customer-first approach means you'll find great deals, top-notch customer service, and reliable support every step of the way. Whether you're looking for the latest trends or everyday essentials, Shopper makes it easy to find exactly what you're looking for—delivered straight to your door. Start browsing today and enjoy a seamless shopping experience!
+							Welcome to Shopper, your one-stop online shop for all your shopping needs! We offer a vast selection of high-quality products across various categories, including electronics, fashion, home goods, beauty, and more. With a user-friendly interface, secure payment options, and fast shipping, shopping with us is both convenient and hassle-free. Our customer-first approach means you&apos;ll find great deals, top-notch customer service, and reliable support every step of the way. Whether you&apos;re looking for the latest trends or everyday essentials, Shopper makes it easy to find exactly what you&apos;re looking for—delivered straight to your door. Start browsing today and enjoy a seamless shopping experience!
 							</p>
 
 							<div onClick={() => window.location.href = 'https://github.com/VladimirRudkovskiy/Ecommerce-Website'}>
