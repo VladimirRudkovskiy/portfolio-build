@@ -26,7 +26,7 @@ export default function Home({ socials }: Props) {
 				<title>Portfolio</title>
 			</Head>
 
-			<Header socials={socials}/>
+			<Header />
 
 			<section id="hero" className="snap-start">
 				<Hero />

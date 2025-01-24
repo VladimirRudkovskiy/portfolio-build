@@ -5,9 +5,8 @@ import React from 'react'
 import ecommerce from './ecommerce.png'
 import Image from 'next/image'
 
-type Props = {}
 
-export default function EcommerceProject({}: Props) {
+export default function EcommerceProject() {
 	return (
 		<div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
 						<motion.div 
