@@ -7,10 +7,9 @@ import Link from 'next/link'
 
 
 
-type Props = {}
 
-export default function Hero({}: Props) {
-	const [text, count] = useTypewriter({
+export default function Hero() {
+	const [text] = useTypewriter({
 		words: [
 			"Hi, my name is Vladimir",
 			"Guy-who-loves-Gaming.tsx",
@@ -48,7 +47,7 @@ export default function Hero({}: Props) {
 				<Link href="#skills">
 				<button className='heroButton'>Skills</button>
 				</Link>
-				<Link href="#project">
+				<Link href="#projects">
 				<button className='heroButton'>Projects</button>
 				</Link>
 				

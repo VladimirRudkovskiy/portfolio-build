@@ -3,9 +3,8 @@ import React from 'react'
 import awards from './awards.png'
 import Image from 'next/image'
 
-type Props = {}
 
-export default function AwardsProject({}: Props) {
+export default function AwardsProject() {
 	return (
 		<div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
 						<motion.div 

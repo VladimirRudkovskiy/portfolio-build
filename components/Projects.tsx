@@ -2,17 +2,14 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
-import awards from './awards.png'
 import AwardsProject from './AwardsProject'
 import BankingProject from './BankingProject'
 import EcommerceProject from './EcommerceProject'
 import RestateProject from './RestateProject'
 
 
-type Props = {}
 
-function Projects({}: Props) {
+function Projects() {
 
 
 	return (

@@ -2,7 +2,6 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import Skill from './SanitySkill'
 import SanitySkill from './SanitySkill'
 import NextSkill from './NextSkill'
 import JavaSkill from './JavaSkill'
@@ -20,9 +19,8 @@ import NodeSkill from './NodeSkill'
 import MySqlSkill from './MySqlSkill'
 import TypeScriptSkill from './TypeScriptSkill'
 
-type Props = {}
 
-function Skills({}: Props) {
+function Skills() {
 	return (
 		<motion.div 
 		initial={{ opacity: 0 }}
